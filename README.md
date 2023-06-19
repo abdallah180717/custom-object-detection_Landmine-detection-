@@ -132,7 +132,16 @@ sudo zip -r  data.zip data/*
 ```
 ![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/d1b2a6c8-b656-4df2-88d7-b2f695e3f606)
 
-upload file to google Drive
+**upload file to google Drive**
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/cc92fc7b-4c9b-4f79-a94f-d1c021ac79e8)
+
+**open yolov5customobj.ipynb and flow this step**
+Drive Link
+```
+https://drive.google.com/drive/u/0/folders/17GtLOFybYMDydMdWX_WBryPcNTG1HhSD
+```
+
+
 
 
 
