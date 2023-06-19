@@ -15,16 +15,59 @@ Step  yolov5 raspberry pi4:
 
 sudo git clone https://github.com/abdallah180717/yolov5raspberry-pi4.git
 
+cd yolov5raspberry-pi4/
+
+ls   ##(install.sh)output in terminal white font
+
+ 
+sudo chmod 775  install.sh ##to Activate
+ 
+ls   ##( install.sh)output in terminal green font
+
+sudo  ./install.sh
+
+clear
+
+cd   ### (:pi@raspberrypi)
+
+sudo pip3 install yolov5
+
+clear
+
+sudo chown -R pi:pi /usr/local/lib/python3.9/dist-packages/yolov5
+
+Create 2 folders in: /home/pi
+
+1-freedomtech
+
+2-yoloresult
+
+open Thonny and load file detect.py from 
+pi /usr/local/lib/python3.9/dist-packages/yolov5
+
+change lines (56,74)  to :
+
+line 56:project='/home/pi/yoloresult/',  # save results to project/name
+
+
+line 74:project='/home/piyoloresult/',  # save results to project/name
+
+Save the file and close.
+#####################################################
+sudo yolov5 detect        ##for photo##
+sudo yolov5 detect    --source 0       ##for video streem##
+
+##############################################################
 
 
 
 open folder: custom-object-detection_Landmine-detection-/img.py from the program  Thonny
 
-you should create a folder name:  images  ,in /home/pi/
+you should create a folder name:  images in /home/pi/
 
 change line 12 to : cv2.imwrite("/home/pi/images/Fake_landmine%d.jpg" %cpt, frame) //for capturing Fake_landmine 
 
-connect the USB camera  to your raspberry pi and Run 
+connect the USB camera  to your raspberry pi and Run to capture 70 frame 
 
 
 
