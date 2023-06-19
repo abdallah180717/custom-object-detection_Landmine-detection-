@@ -47,17 +47,19 @@ pi /usr/local/lib/python3.9/dist-packages/yolov5
 
 change lines (56,74)  to :
 
-line 56:project='/home/pi/yoloresult/',  # save results to project/name
-
+line 56:source=ROOT / '/home/pi/freedomtech',  # file/dir/URL/glob/screen/0(webcam)
 
 line 74:project='/home/piyoloresult/',  # save results to project/name
 
+
 Save the file and close.
 #####################################################
-sudo yolov5 detect        ##for photo##
+
+sudo yolov5 detect                      ##for photo##
+
 sudo yolov5 detect    --source 0       ##for video streem##
 
-##############################################################
+#####################################################
 
 
 
@@ -65,7 +67,16 @@ open folder: custom-object-detection_Landmine-detection-/img.py from the program
 
 you should create a folder name:  images in /home/pi/
 
-change line 12 to : cv2.imwrite("/home/pi/images/Fake_landmine%d.jpg" %cpt, frame) //for capturing Fake_landmine 
+
+connect the USB camera  to your raspberry pi and Run to capture 70 frame 
+
+
+change line 12 to : cv2.imwrite("/home/pi/images/Fake_landmine%d.jpg" %cpt, frame) 
+RUn//for capturing Fake_landmine 70 image
+
+change line 12 to : cv2.imwrite("/home/pi/images/Landmine%d.jpg" %cpt, frame)
+RUn//for capturing Landmine 70 image
+
 
 connect the USB camera  to your raspberry pi and Run to capture 70 frame 
 
