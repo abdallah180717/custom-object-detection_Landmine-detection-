@@ -37,6 +37,7 @@ sudo  ./install.sh
 cd
 ```  
 (:pi@raspberrypi)
+
 ```
 sudo pip3 install yolov5
 ```
