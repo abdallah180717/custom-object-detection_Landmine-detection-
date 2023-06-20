@@ -44,9 +44,9 @@ sudo chown -R pi:pi /usr/local/lib/python3.9/dist-packages/yolov5
 ```
 Create 2 folders in: /home/pi
 
-1-freedomtech
+1-freedomtech   "add a photo of landmine to process"
 
-2-yoloresult
+2-yoloresult     "result shown in this folder "
 
 open Thonny and load file detect.py from 
 pi /usr/local/lib/python3.9/dist-packages/yolov5
@@ -62,15 +62,6 @@ line 74:
 ```
 project='/home/piyoloresult/',  # save results to project/name
 ```
-
-Save the file and close.
-#####################################################
-
-sudo yolov5 detect                      ##for photo##
-
-sudo yolov5 detect    --source 0       ##for video streem##
-
-#####################################################
 
 
 
@@ -133,29 +124,32 @@ sudo zip -r  data.zip data/*
 ![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/d1b2a6c8-b656-4df2-88d7-b2f695e3f606)
 
 **upload a zip file to Google Drive**
-![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/cc92fc7b-4c9b-4f79-a94f-d1c021ac79e8)
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/e9af1b25-3509-4099-96c6-baa18582d0f0)
+
+**open yolov5customobj.ipynb and flow this step**
+Drive Link
+```
+https://drive.google.com/drive/u/0/folders/17GtLOFybYMDydMdWX_WBryPcNTG1HhSD
+```
 
 
+download  best.pt to 
+```
+/usr/local/lib/python3.9/dist-packages/yolov5
+```
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/ea32ac16-7d8f-436b-aadd-b1569b94fbd0)
 
-open google  drive and  add a new  Google Colaboratory
-then upload **yolov5customobj.ipynb**
+change lines 55  to :  weights='/usr/local/lib/python3.9/dist-packages/yolov5/best.pt'
 
-![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/29f53bea-5a09-41ac-b1f4-b25833a85d7e)
+ ![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/eeee591a-033d-428a-8740-5c252aafa2ad)
 
+Save the file and close.
 
-![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/371bfdd5-e2c1-43e5-8efa-24634c6df3e3)
+Open Terminal :
 
+``` sudo yolov5 detect```                    " for photo"
 
-
-![ice_screenshot_20230620-110416](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/6c1c2f41-1cb4-476d-a163-54ad03960dd0)
-
-
-
-
-![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/d504d294-c769-4b1d-ba52-e45a19ffa403)
-
-
-
+``` sudo yolov5 detect    --source 0```      "for video stream"
 
 
 
