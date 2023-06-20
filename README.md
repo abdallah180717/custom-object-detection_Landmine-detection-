@@ -46,7 +46,7 @@ Create 2 folders in: /home/pi
 
 1-freedomtech   "add a photo of landmine to process"
 
-2-yoloresult     "result shown in this folder "
+2-yoloresult     "result is  shown in this folder "
 
 open Thonny and load file detect.py from 
 pi /usr/local/lib/python3.9/dist-packages/yolov5
@@ -145,10 +145,31 @@ change lines 55  to :  weights='/usr/local/lib/python3.9/dist-packages/yolov5/be
 
 Save the file and close.
 
-Open Terminal :
+To perform image processing using YOLOv5:
+add your photo in 
+-freedomtech   "add a photo of landmine to process"
 
-``` sudo yolov5 detect```                    " for photo"
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/8a3caf09-a6c5-41d6-bd27-e36fc402955e)
 
+
+Open Terminal: write command 
+
+``` sudo yolov5 detect```     " for photo"
+
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/f1d30d7b-9e17-48fa-a65f-ca661a91168a)
+
+
+
+-yoloresult     "result is shown in this folder "
+
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/c045cae5-169e-443c-bb71-0fb2c25293e8)
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/541bf037-3e9d-4c47-850c-2ccf1f507944)
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/06b3f99c-5be1-4ddb-8a69-cea4d3b00203)
+
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/4972e59a-a3cc-48c2-84bf-ea97f9a74fbd)
+
+To perform video  processing using YOLOv5
+Open Terminal: write command: 
 ``` sudo yolov5 detect    --source 0```      "for video stream"
 
 
