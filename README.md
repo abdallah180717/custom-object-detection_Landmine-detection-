@@ -132,15 +132,25 @@ sudo zip -r  data.zip data/*
 ```
 ![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/d1b2a6c8-b656-4df2-88d7-b2f695e3f606)
 
-**upload file to google Drive**
+**upload a zip file to Google Drive**
 ![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/cc92fc7b-4c9b-4f79-a94f-d1c021ac79e8)
 
-**open yolov5customobj.ipynb and flow this step**
-Drive Link
-```
-https://drive.google.com/drive/u/0/folders/17GtLOFybYMDydMdWX_WBryPcNTG1HhSD
-```
 
+
+open google  drive and  add a new  Google Colaboratory
+then upload **yolov5customobj.ipynb**
+
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/29f53bea-5a09-41ac-b1f4-b25833a85d7e)
+
+
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/371bfdd5-e2c1-43e5-8efa-24634c6df3e3)
+
+
+
+![ice_screenshot_20230620-110416](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/6c1c2f41-1cb4-476d-a163-54ad03960dd0)
+
+
+![Uploading image.png…]()
 
 
 
