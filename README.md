@@ -115,9 +115,6 @@ training)   create a folder  /home/pi/data/
 ![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/489b41cf-ff43-4100-b4bd-ae7ec0de2f40)
 ![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/875dbffb-95c8-4638-8c2f-e081f38b9201)
 
-```
-sudo zip -r  data.zip data/*
-```
 
 ```
 sudo zip -r  data.zip data/*
