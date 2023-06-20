@@ -150,9 +150,9 @@ then upload **yolov5customobj.ipynb**
 ![ice_screenshot_20230620-110416](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/6c1c2f41-1cb4-476d-a163-54ad03960dd0)
 
 
-![Uploading image.png…]()
 
 
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/d504d294-c769-4b1d-ba52-e45a19ffa403)
 
 
 
