@@ -147,7 +147,7 @@ To perform image processing using YOLOv5:
 add your photo in 
 -freedomtech   "add a photo of landmine to process"
 
-![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/8a3caf09-a6c5-41d6-bd27-e36fc402955e)
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/c96a1bf4-6dbb-4ebf-b85f-6aafa8f4cbdf)
 
 
 Open Terminal: write command 
@@ -159,14 +159,17 @@ Open Terminal: write command
 
 
 -yoloresult     "result is shown in this folder "
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/c49941f2-a7d0-4784-97fc-d134a74b03c3)
 
 ![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/c045cae5-169e-443c-bb71-0fb2c25293e8)
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/56167925-5233-4c1c-ba87-3f8219ae4aa5)
+
 ![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/541bf037-3e9d-4c47-850c-2ccf1f507944)
 ![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/06b3f99c-5be1-4ddb-8a69-cea4d3b00203)
 
 ![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/4972e59a-a3cc-48c2-84bf-ea97f9a74fbd)
 ![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/fc255955-ba35-4529-b26b-d9c19018be3f)
-![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/b519cab8-6dab-422b-9404-97729f311cae)
+![image](https://github.com/abdallah180717/custom-object-detection_Landmine-detection-/assets/90546119/e1c9dc13-3151-4a9f-b6ca-d72bb2bc6c23)
 
 To perform video  processing using YOLOv5
 Open Terminal: write command: 
